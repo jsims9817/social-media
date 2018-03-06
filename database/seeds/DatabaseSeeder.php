@@ -12,8 +12,8 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->command->info('Adding Users');
-        factory(App\User::class, 3)->create();
+        factory(App\User::class, 0)->create();
         $this->command->info('Adding Posts');
-        factory(App\Post::class, 0)->create();
+        factory(App\Post::class, 9)->create();
     }
 }
