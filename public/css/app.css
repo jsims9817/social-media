@@ -10009,6 +10009,7 @@ html {
 }
 
 body {
+  background-color: transparent;
   min-height: 100%;
 }
 
@@ -12184,6 +12185,14 @@ div.article-content a.show-sidebar {
   color: #647886;
   width: 350px;
   margin-top: 45px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
 }
 
 /* Mobile screens ----------- */

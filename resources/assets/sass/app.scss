@@ -26,7 +26,7 @@ html{
 }
 
 body {
-
+    background-color: transparent;
     min-height: 100%;
 
 }
@@ -3601,6 +3601,14 @@ div.article-content a.show-sidebar {
 
     margin-top:45px;
 
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+ float: left;
 }
 
 

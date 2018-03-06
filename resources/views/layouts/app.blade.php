@@ -74,16 +74,13 @@
     <div class="container">
         <div class="row">
             <div class="grey"></div>
-            <a class="col-xs-3 logo pull-left" href="index.html">
-                <img src="/storage/app/public/images/common/logo.png" alt="dailysmarty">
-                <img class="logo-small" src="/storage/app/public/images/common/logo_small.png" alt="dailysmarty">
+            <a class="col-3 logo pull-left" href="index.html">
+                <img src="images/common/logo.png" alt="dailysmarty">
+                <img class="logo-small" src="images/common/logo_small.png" alt="dailysmarty">
             </a>
-            <div class="col-xs-9 pull-left">
-                <div class="col-xs-6 pull-left">
-                    <span class="icon icon-search"></span>
-                    <input type="text" placeholder="Search..."/>
-                </div>
-                <div class="col-xs-3 avatar pull-right">
+            <div class="col-6"></div>
+            <div class="col-3 pull-left">
+                <div class="col-12 avatar pull-right">
                     <a href="stats.html">
                         <div class="mask"></div>
                         <img src="images/common/guest_image.png">
@@ -107,7 +104,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-xs-9 article-grid pull-left">
+        <div class="col-9 article-grid pull-left">
             <a href="#accept-article" class="btn btn-default btn-charcoal pull-left"><span>Submit Article</span></a>
             <ul class="filter pull-right">
                 <li>Top Now</li>
@@ -127,8 +124,8 @@
             </select>
             <div class="clearfix"></div>
 
-            <div class="horizontal clearfix">
-                <div class="col-xs-5 text">
+            <div class="horizontal clearfix row">
+                <div class="col-5 text">
                     <h1>Business</h1>
                     <h2>New Stuff Coming This Fall</h2>
 
@@ -140,7 +137,7 @@
 
                     <a href="article.html" class="btn btn-default btn-dotted pull-left"><span>Read More</span></a>
                 </div>
-                <div class="col-xs-7 image">
+                <div class="col-7 image">
                     <img src="images/image1.png" />
                     <ul class="stats">
                         <li>
@@ -190,68 +187,6 @@
                 </div>
             </div>
 
-            <div class="vertical padding featured">
-                <div class="image">
-                    <img src="images/image3.png" />
-                    <ul class="stats">
-                        <li>
-                            <span class="icon icon-view"></span>
-                            <p>369</p>
-                        </li>
-                        <li>
-                            <span class="icon icon-comment"></span>
-                            <p>36</p>
-                        </li>
-                        <li>
-                            <span class="icon icon-relations"></span>
-                            <p>52</p>
-                        </li>
-                    </ul>
-                    <div class="featured"></div>
-                </div>
-                <div class="text">
-                    <h2>New Stuff Coming This Fall</h2>
-                    <p>Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur sunt in culpa <strong>qui officia
-                    deserunt</strong> mollit anim id est laborum.
-                    Duis aute irure dolor in reprehenderit...</p>
-                    <a href="article.html" class="btn btn-default btn-dotted pull-left"><span>Read More</span></a>
-                </div>
-            </div>
-
-            <div class="horizontal clearfix">
-                <div class="col-xs-5 text">
-                    <h2 style="margin-top:0px;">New Stuff Coming This Fall</h2>
-
-                    <p>Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum <strong>dolore eu fugiat
-                    nulla</strong> pariatur sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                    Duis aute irure dolor in reprehenderit...</p>
-
-                    <a href="article.html" class="btn btn-default btn-dotted pull-left"><span>Read More</span></a>
-                </div>
-                <div class="col-xs-7 image">
-                    <img src="images/image4.png" />
-                    <ul class="stats">
-                        <li>
-                            <span class="icon icon-view"></span>
-                            <p>369</p>
-                        </li>
-                        <li>
-                            <span class="icon icon-comment"></span>
-                            <p>36</p>
-                        </li>
-                        <li>
-                            <span class="icon icon-relations"></span>
-                            <p>52</p>
-                        </li>
-                    </ul>
-                    <div class="featured"></div>
-                </div>
-            </div>
-
             <div class="vertical">
                 <div class="image">
                     <img src="images/image3.png" />
@@ -274,36 +209,6 @@
                 <div class="text">
                     <h2>New Stuff Coming This Fall</h2>
                     <p>Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum <strong>dolore eu fugiat</strong>
-                    nulla pariatur sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                    Duis aute irure dolor in reprehenderit...</p>
-                    <a href="article.html" class="btn btn-default btn-dotted pull-left"><span>Read More</span></a>
-                </div>
-            </div>
-
-            <div class="vertical padding featured">
-                <div class="image">
-                    <img src="images/image2.png" />
-                    <ul class="stats">
-                        <li>
-                            <span class="icon icon-view"></span>
-                            <p>369</p>
-                        </li>
-                        <li>
-                            <span class="icon icon-comment"></span>
-                            <p>36</p>
-                        </li>
-                        <li>
-                            <span class="icon icon-relations"></span>
-                            <p>52</p>
-                        </li>
-                    </ul>
-                    <div class="featured"></div>
-                </div>
-                <div class="text">
-                    <h2>New Stuff Coming This Fall</h2>
-                    <p>Duis aute irure dolor in reprehenderit in
                     voluptate velit esse cillum dolore eu fugiat
                     nulla pariatur sunt in culpa <strong>qui officia
                     deserunt</strong> mollit anim id est laborum.
@@ -312,8 +217,10 @@
                 </div>
             </div>
 
+
+
         </div>
-        <div class="col-xs-3 sidebar pull-right">
+        <div class="col-3 sidebar pull-right">
             <ul>
                 <li><a href="#">All</a></li>
                 <li class="active"><a href="#">Business</a></li>
@@ -351,7 +258,7 @@
 <div id="footer" class="blue">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <ul class="pull-left">
                     <li><a href="index.html">Home</a>/</li>
                     <li><a href="faq.html"  class="active">FAQ</a>/</li>
