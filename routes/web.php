@@ -17,11 +17,12 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'PostController@index')->name('publicView');
+
+Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
 Route::get('/posts/create', 'PostController@create')->middleware('auth');
-Route::get('/posts/{video}', 'PostController@show')->middleware('auth');
+Route::get('/posts/{post}', 'PostController@show');
 Route::get('/posts', 'PostController@index')->name('publicView');
-Route::get('/public/{link}', 'PostController@public');
 Route::post('/posts', 'PostController@store')->middleware('auth');
-Route::delete('posts/{video}','PostController@dlt')->middleware('auth');
+Route::delete('posts/{post}','PostController@dlt')->middleware('auth');
