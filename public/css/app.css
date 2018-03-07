@@ -1,4 +1,168 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31.07.2015., 17:08:06
+    Author     : kreso
+*/
+
+@font-face {
+
+    font-family: 'MuseoSans-300Italic';
+
+    src: url(/fonts/MuseoSans-300Italic.eot?5bc8ca124c9874628ac954a3e056f746);
+
+    src: url(/fonts/MuseoSans-300Italic.eot?5bc8ca124c9874628ac954a3e056f746#iefix) format('embedded-opentype'),
+
+        url(/fonts/MuseoSans-300Italic.woff?7ee3bd0d1c95c8e0fd19b9077dd5e935) format('woff'),
+
+        url(/fonts/MuseoSans-300Italic.ttf?76c6b6c93dc9d786c13f10bbad95e7ef) format('truetype'),
+
+        url(/fonts/MuseoSans-300Italic.svg?866277355692983f86221ed2277cd4d7#MuseoSans-300Italic) format('svg');
+
+}
+
+@font-face {
+
+    font-family: 'MuseoSlab-500Italic';
+
+    src: url(/fonts/MuseoSlab-500Italic.eot?3e1a8afcd07f2ad9a2daad41127afae9);
+
+    src: url(/fonts/MuseoSlab-500Italic.eot?3e1a8afcd07f2ad9a2daad41127afae9#iefix) format('embedded-opentype'),
+
+        url(/fonts/MuseoSlab-500Italic.woff?73a14c4cd63f740cd90ed7738d79897b) format('woff'),
+
+        url(/fonts/MuseoSlab-500Italic.ttf?f6b3aa33480a5ce824fa9145b225fe37) format('truetype'),
+
+        url(/fonts/MuseoSlab-500Italic.svg?aa0e7b65de27633b48192ddfd916b07a#MuseoSlab-500Italic) format('svg');
+
+}
+
+@font-face {
+
+    font-family: 'Museo-700';
+
+    src: url(/fonts/Museo-700.eot?e8efdb5536f9308cd5815b555071a8be);
+
+    src: url(/fonts/Museo-700.eot?e8efdb5536f9308cd5815b555071a8be#iefix) format('embedded-opentype'),
+
+        url(/fonts/Museo-700.woff?fa99344e9a9b83e055c6a464f470cc69) format('woff'),
+
+        url(/fonts/Museo-700.ttf?d6bf3a255bef47e3e4c078cdcc7d762b) format('truetype'),
+
+        url(/fonts/Museo-700.svg?f81725d13f9f7d85328ccad6296389aa#Museo-700) format('svg');
+
+}
+
+@font-face {
+
+    font-family: 'Museo-500';
+
+    src: url(/fonts/Museo-500.eot?a93ea5311710b2a54be7775774b16d08);
+
+    src: url(/fonts/Museo-500.eot?a93ea5311710b2a54be7775774b16d08#iefix) format('embedded-opentype'),
+
+        url(/fonts/Museo-500.woff?0efaefd07493c4a2d82b68729dc8854e) format('woff'),
+
+        url(/fonts/Museo-500.ttf?23fc5edfa9b33f8565f08d31646e8fc5) format('truetype'),
+
+        url(/fonts/Museo-500.svg?73451659621b5e9d776a358634bce1e0#Museo-500) format('svg');
+
+}
+
+@font-face {
+
+    font-family: 'Museo-300';
+
+    src: url(/fonts/Museo-300.eot?b22c60fd2a6b0881ed5054bd62c5827e);
+
+    src: url(/fonts/Museo-300.eot?b22c60fd2a6b0881ed5054bd62c5827e#iefix) format('embedded-opentype'),
+
+        url(/fonts/Museo-300.woff?f11d985d93491dae920c619a44f0519a) format('woff'),
+
+        url(/fonts/Museo-300.ttf?b4e295a743970a5144ffcca2afae9f2b) format('truetype'),
+
+        url(/fonts/Museo-300.svg?fa635225a925c525394527ca14bfbd5a#Museo-300) format('svg');
+
+}
+
+@font-face {
+
+    font-family: 'FrutigerLTStd-Light';
+
+    src: url(/fonts/FrutigerLTStd-Light.eot?2ec8bf91cfeb97eedf7dbc5529444ef4);
+
+    src: url(/fonts/FrutigerLTStd-Light.eot?2ec8bf91cfeb97eedf7dbc5529444ef4#iefix) format('embedded-opentype'),
+
+        url(/fonts/FrutigerLTStd-Light.woff?04ad999daee6a7ce31165529bd2b8616) format('woff'),
+
+        url(/fonts/FrutigerLTStd-Light.ttf?545d4aa1badedfb225197b835550ed79) format('truetype'),
+
+        url(/fonts/FrutigerLTStd-Light.svg?cfdf80b26ac8b5fbd442b6efa1d76a70#FrutigerLTStd-Light) format('svg');
+
+}
+
+.MuseoSans-300Italic {
+    
+    font-family: "MuseoSans-300Italic";
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+
+.MuseoSlab-500Italic {
+    
+    font-family: "MuseoSlab-500Italic";
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+
+.Museo-700 {
+    
+    font-family: "Museo-700";
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+
+.Museo-500 {
+    
+    font-family: "Museo-500";
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+
+.Museo-300 {
+    
+    font-family: "Museo-300";
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+
+.FrutigerLTStd-Light {
+    
+    font-family: "FrutigerLTStd-Light";
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10813,7 +10977,7 @@ div.sidebar {
   padding-left: 34px;
   border-left: 1px #B3B2B2 dashed;
   margin-right: 50px;
-  height: 100%;
+  height: auto;
   z-index: 10;
 }
 
@@ -12125,7 +12289,6 @@ div.article-content a.show-sidebar {
 }
 
 #footer {
-  margin-bottom: 61px;
   height: 100px;
 }
 
@@ -12193,6 +12356,36 @@ div.article-content a.show-sidebar {
 
 .pull-left {
   float: left;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  margin-top: 150px;
+}
+
+div.article-grid div.vertical .video-meta {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+div.article-grid div.vertical h2 {
+  margin-bottom: 0px;
+}
+
+.smaller_container_2 {
+  max-width: 500px;
+}
+
+.article-grid .horizontal {
+  padding-right: 40px;
 }
 
 /* Mobile screens ----------- */

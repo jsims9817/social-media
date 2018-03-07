@@ -74,4 +74,20 @@
         </div>
     </div>
 </div>
+
+<style>
+
+#footer {
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+div.grey2 {
+  background: transparent;
+}
+
+</style>
+
 @endsection

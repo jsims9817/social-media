@@ -1,7 +1,7 @@
 
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
+@import url('fonts.css');
 // Variables
 @import "variables";
 
@@ -1349,7 +1349,7 @@ div.sidebar {
 
     margin-right:50px;
 
-    height:100%;
+    height:auto;
 
     z-index:10;
 
@@ -3505,8 +3505,6 @@ div.article-content a.show-sidebar {
 
 #footer {
 
-    margin-bottom:61px;
-
     height:100px;
 
 }
@@ -3609,6 +3607,35 @@ div.article-content a.show-sidebar {
 
 .pull-left {
  float: left;
+}
+
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  margin-top: 150px;
+}
+
+div.article-grid div.vertical .video-meta {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+div.article-grid div.vertical h2 {
+    margin-bottom: 0px;
+}
+
+
+.smaller_container_2 {
+  max-width: 500px;
+}
+
+.article-grid .horizontal {
+  padding-right: 40px;
 }
 
 

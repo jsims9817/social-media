@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use Illuminate\Http\Request;
+use Faker\Generator as Faker;
 
 class PostController extends Controller
 {
@@ -41,18 +42,17 @@ class PostController extends Controller
     public function store(Request $request)
     {
         $this->validate(request(), [
-          'link' => 'unique:posts',
+          'link' => 'required',
           'title' => 'required',
           'body' => 'required',
-          'link' => 'required'
         ]);
 
         // Create a new post with given data
         $post = new Post;
-        $post->link = request('link');
         $post->title = request('title');
         $post->body = request('body');
-        $post->embed = request('embed');
+        $post->link = request('link');
+        $post->image = 'https://picsum.photos/3000/2000/?random';
         $post->user_id = auth()->id();
 
         // Save to database
@@ -65,7 +65,7 @@ class PostController extends Controller
 
 
         // Redirect
-        return redirect('/posts');
+        return redirect('/');
     }
 
     /**

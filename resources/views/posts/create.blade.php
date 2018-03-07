@@ -20,9 +20,10 @@
 ?>
 
   <div class="container smaller_container_2 add_video_wrap">
-    <h3 style="margin-top: 50px;">Add a video</h3>
+    <h3 style="margin-top: 50px;">Create a Post</h3>
     <hr>
-    <form method="POST" action="/videos">
+    @include('layouts.errors')
+    <form method="POST" action="/posts">
       {{ csrf_field() }}
       <div class="form-group">
         <label for="title">Title</label>
@@ -33,12 +34,30 @@
         <textarea class="form-control" id="body" name="body"></textarea>
       </div>
       <div class="form-group">
-        <label for="embed">Embed</label>
-        <textarea class="form-control" id="embed" name="embed"></textarea>
+        <label for="embed">Link</label>
+        <input type="text" class="form-control" id="link" name="link"></input>
       </div>
       <button type="submit" class="">Publish</button>
     </form>
   </div>
-  @include('layouts.errors')
+
+
+
+
+
+  <style>
+
+  #footer {
+      height: 100px;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+  }
+
+  div.grey2 {
+    background: transparent;
+  }
+
+  </style>
 
 @endsection
